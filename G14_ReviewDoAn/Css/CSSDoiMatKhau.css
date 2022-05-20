@@ -1,0 +1,83 @@
+﻿body {
+    background-image: url('../Images/background.jpg');
+    background-size: cover;
+}
+
+.formDoiMK {
+    text-align: center;
+    width: 30%;
+    margin: 200px auto;
+    height: 250px;
+    background-color: azure;
+    border: solid 1px azure;
+}
+
+#lbDoiMK {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+    #lbDoiMK img {
+        margin-left: 20px;
+    }
+
+#Close {
+    margin-top: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+#txtMKCu, #txtMKMoi, #txtNhaplai, #txtTaikhoan {
+    width: 90%;
+    margin: 0px 20px 5px 15px;
+    padding: 5px;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+#btnSubmit {
+    background-color: #2e86de;
+    color: white;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: auto;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+    #btnSubmit:hover {
+        background-color: #3742fa;
+    }
+
+#loi {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+@media all and (max-width: 320px) {
+    .formDangnhap {
+        width: auto;
+    }
+
+    #txtTen, #txtTaikhoan {
+        width: 90%;
+    }
+
+    #txtTaikhoan, #txtGmail, #txtMatkhau {
+    }
+}

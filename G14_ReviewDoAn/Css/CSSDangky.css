@@ -1,0 +1,91 @@
+﻿body {
+    background-image: url('../Images/background.jpg');
+    background-size: cover;
+}
+
+.formDangky {
+    text-align: center;
+    width: 30%;
+    margin: 200px auto;
+    height: 400px;
+    background-color: azure;
+    border: solid 1px azure;
+}
+
+#lbDangnhap {
+    color: blue;
+    font-size: 30px;
+    font-weight: bold;
+    margin-top: 20px;
+}
+
+#Close {
+    margin-top: 25px;
+    margin-right: 20px;
+    cursor: pointer;
+    width: 20px;
+    height: 20px;
+    float: right;
+}
+
+#txtHo {
+    width: 32%;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+}
+
+#txtTen {
+    width: 52%;
+    margin: 5px 5px 5px 5px;
+    padding: 5px;
+}
+
+#txtTaikhoan, #txtGmail, #txtMatkhau {
+    width: 90%;
+    margin: 5px 20px 5px 15px;
+    padding: 5px;
+    color: grey;
+}
+
+a {
+    text-decoration: none;
+    color: royalblue;
+}
+
+#btnSubmit {
+    background-color: #2e86de;
+    color: white;
+    text-align: center;
+    width: 120px;
+    height: 30px;
+    cursor: pointer;
+    font-size: 16px;
+    margin: auto;
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+    #btnSubmit:hover {
+        background-color: #3742fa;
+    }
+
+#loi {
+    color: red;
+    font-size: 16px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+@media all and (max-width: 320px) {
+    .formDangnhap {
+        width: auto;
+    }
+
+    #txtTen, #txtTaikhoan {
+        width: 90%;
+    }
+
+    #txtTaikhoan, #txtGmail, #txtMatkhau {
+    }
+}
